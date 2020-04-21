@@ -94,7 +94,7 @@ function loadCounter() {
     });
 }
 
-function setLang(e) {
+function setLang(lang) {
     $.ajax({
         data: {
             lang: lang
