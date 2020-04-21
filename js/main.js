@@ -94,14 +94,14 @@ function loadCounter() {
     });
 }
 
-function setLang(lang) {
+function setLang(e) {
     $.ajax({
         data: {
             lang: lang
         },
         url: 'set_language.php',
         type: 'POST',
-        async: true,
+        async: false,
         success: function (data, textStatus, jqXHR) {
             location.reload();
         }
