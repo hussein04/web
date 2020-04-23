@@ -101,7 +101,7 @@ function setLang(lang) {
         },
         url: 'set_language.php',
         type: 'POST',
-        async: true,
+        async: false,
         success: function (data, textStatus, jqXHR) {
             location.reload();
         }
