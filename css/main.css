@@ -51,6 +51,20 @@ body {
     background: #f8f8f8;
 }
 
+.page-title1 {
+    float: left;
+    width: 800px;
+    text-align: center;
+    font-weight: bold;
+    margin: 25px 0;
+    line-height: 40px;
+    font-size: 20px;
+    color: #444466;
+    color: #13a651;
+}
+
+
+
 .page-title {
     float: left;
     width: 800px;
