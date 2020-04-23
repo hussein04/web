@@ -259,7 +259,7 @@ body {
 
 .nav-wrapper {
     width: 100%;
-    background: url(../images/video-overlay.png) repeat #6a5acd;
+    background: url(../images/video-overlay.png) repeat #13a651;
 }
 
 .nav {
@@ -267,7 +267,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     height: 45px;
-    background: url(../images/video-overlay.png) repeat #13a651;
+    background: url(../images/video-overlay.png) repeat #6a5acd;
 }
 
 .message-results {
