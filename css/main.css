@@ -556,9 +556,9 @@ ul.time-list li {
     background: #909090;
     font-size: 14px;
     padding: 10px 20px;
-    border-top: 4px solid #13a651;
-    /*    border-top-right-radius: 4px;
-        border-top-left-radius: 4px;*/
+    border-top: 4px solid #43c4a9;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
 }
 
 .portion-content {
