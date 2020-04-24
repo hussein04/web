@@ -1379,6 +1379,7 @@ ul.time-list li {
 
     .menu li {
         width: 250px;
+        text-align: center;
     }
 
     .menu li > ul li {
