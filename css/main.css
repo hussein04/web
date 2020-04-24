@@ -259,7 +259,7 @@ body {
 
 .nav-wrapper {
     width: 100%;
-    background: url(../images/video-overlay.png) repeat #787878;
+    background: url(../images/video-overlay.png) repeat #78ffff;
 }
 
 .nav {
@@ -1406,7 +1406,7 @@ ul.time-list li {
         color: #1be46f; 
     }
     .menu li a.current {
-        color: #1fffff !important;
+        color: #13a651 !important;
         color: white !important;
         border-left: 3px solid #13a651;
         border-left: 3px solid #f5f195;
