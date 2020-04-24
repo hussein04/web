@@ -1395,7 +1395,7 @@ ul.time-list li {
         text-decoration: none;
         padding: 13px;
         display: block;
-        width: 50%;
+        width: 100%;
         color: #d0d0d0;
         box-sizing: border-box;
         border-left: 3px solid #515151;
@@ -1406,7 +1406,7 @@ ul.time-list li {
         color: #1be46f; 
     }
     .menu li a.current {
-        color: #13a651 !important;
+        color: #1fffff !important;
         color: white !important;
         border-left: 3px solid #13a651;
         border-left: 3px solid #f5f195;
