@@ -375,7 +375,7 @@ body {
 }
 
 .nav ul li:hover {
-    background: #136651;
+    background: #136afa;
 }
 
 .nav ul li:hover a {
@@ -389,7 +389,7 @@ body {
 .nav ul li a {
     display: block;
     padding: 12px;
-    color: #fff876;
+    color: #fffada;
     text-decoration: none;
     border-bottom: 2px solid #13a651;
     border-right: 1px dotted #e5e5e5;
