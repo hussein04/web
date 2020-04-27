@@ -443,7 +443,7 @@ body {
 }
 
 .left-column {
-    width: 265px;
+    width: 200px;
     float: left;
 }
 
@@ -458,7 +458,7 @@ body {
 }
 
 .middle-column {
-    width: 470px;
+    width: 500px;
     float: left;
 }
 
@@ -505,7 +505,7 @@ body {
 }
 
 .portion {
-    width: 250px;
+    width: 190px;
     background-color: #fff;
     float: left;
     margin-right: 15px;
@@ -551,7 +551,7 @@ ul.time-list li {
 
 .portion-title {
     /*font-family: 'Bebas Neue';*/
-    width: 210px;
+    width: 150px;
     color: #fff;
     /*background: #777;*/
     background: #909090;
@@ -563,7 +563,7 @@ ul.time-list li {
 }
 
 .portion-content {
-    padding: 15px;
+    padding: 10px;
 }
 
 #header{
@@ -623,7 +623,7 @@ ul.time-list li {
 
 .footer-column-content input {
     width: 100%;
-    padding: 5px 8px;
+    padding: 2px 3px;
     background: #333333;
     background: #272727;
     border: 1px solid #444444;
@@ -645,8 +645,8 @@ ul.time-list li {
 }
 
 .footer-column-content button {
-    padding: 7px 15px;
-    margin-top: 10px;
+    padding: 5px 15px;
+    margin-top: 5px;
     color: #c5c5c5;
     background-color: #444;
     border: 1px solid #13a651;
@@ -1024,7 +1024,7 @@ ul.time-list li {
 }
 #slider{
     float: left;
-    width: 59%;
+    width: 100%;
     border: 1px solid black;
 }
 
