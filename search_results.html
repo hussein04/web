@@ -42,25 +42,10 @@
                 $('#exam-type').change(function () {
                     var examType = $(this).val();
                     switch (examType) {
-                        case 'PSLE':
-                            $('#hint').html('eg. PS0204011-132');
-                            break;
-                        case 'CSEE':
-                            $('#hint').html('eg. S0309/0059');
-                            break;
-                        case 'ACSEE':
-                            $('#hint').html('eg. S0534/0522');
-                            break;
-                        case 'GATCE':
-                            $('#hint').html('eg. E0517-0028');
-                            break;
-                        case 'GATSCCE':
-                            $('#hint').html('eg. E0526-0145');
-                            break;
-                        case 'DTE':
+                        case 'DSEE':
                             $('#hint').html('eg. E0502-0003');
                             break;
-                        case 'DSEE':
+                        case 'SDSEE':
                             $('#hint').html('eg. E0501-0213');
                             break;
                     }
@@ -184,7 +169,7 @@
             <li><a href="dsee.html" title="Special Diploma in Mathematics, Science and ICT">Odinary Diploma In Science, Mathematics And ICT </a></li>
         </ul>
     </li>
-    <li><a  href="registration.html">Registration Matters</a>
+    <li><a  href="registration.html">Registration</a>
         <ul>
             <li><a href="registration.html#regperiods">Registration Periods</a></li>
             <li><a href="registration.html#accounts">Bank Accounts</a></li>
@@ -192,8 +177,8 @@
     </li>
     <li><a  href="result_description.html">Results</a>
         <ul>
-            <li><a href="dsee_results.html" title="Diploma in Secondary Education Examination">DSEE</a></li>
-            <li><a href="dsee_results.html" title="Special Diploma in Secondary Education Examination">SDSEE</a></li>
+            <li><a href="dsee_results.html" title="Diploma in Secondary Education Examination">Diploma in Secondary Education Examination</a></li>
+            <li><a href="dsee_results.html" title="Special Diploma in Secondary Education Examination">Special Diploma in Secondary Education Examination</a></li>
             <li><a href="search_results.html">Search</a></li>
         </ul>
     </li>
@@ -238,7 +223,7 @@
             <li><a href="dsee.html" title="Special Diploma in Mathematics, Science and ICT ">Ordinary Diploma In Science, Mathematics And ICT</a></li>
         </ul>
     </li>
-    <li><a  href="registration.html">Registration Matters</a>
+    <li><a  href="registration.html">Registration</a>
         <ul>
             <li><a href="registration.html#regperiods">Registration Periods</a></li>
             <li><a href="registration.html#accounts">Bank Accounts</a></li>
@@ -246,8 +231,8 @@
     </li>
     <li><a  href="result_description.html">Results</a>
         <ul>
-            <li><a href="dsee_results.html" title="Diploma in Secondary Education Examination">DSEE</a></li>
-            <li><a href="dsee_results.html" title="Special Diploma in Secondary Education Examination">SDSEE</a></li>
+            <li><a href="dsee_results.html" title="Diploma in Secondary Education Examination">Diploma in Secondary Education Examination</a></li>
+            <li><a href="dsee_results.html" title="Special Diploma in Secondary Education Examination">Special Diploma in Secondary Education Examination</a></li>
             <li><a href="search_results.html">Search</a></li>
         </ul>
     </li>
@@ -282,20 +267,14 @@
                                     <td>Exam type:</td>
                                     <td>
                                         <select name="examType" id="exam-type" required="">
-                                            <option value="PSLE">PSLE</option>
-                                            <!--<option value="QT">QT</option>-->
-                                            <option value="CSEE">CSEE</option>
-                                            <option value="ACSEE">ACSEE</option>
-                                            <option value="GATCE">GATCE</option>
-                                            <option value="GATSCCE">GATSCCE</option>
-                                            <option value="DTE">DTE</option>
-                                            <option value="DSEE">DSEE</option>
+                                            <option value="DSEE">DTE</option>
+                                            <option value="SDSEE">DSEE</option>
                                         </select>
                                     </td>
                                 </tr>
                                 <tr id="candidate-number-row">
                                     <td>Candidate number:</td>
-                                    <td><input type="text" name="candidateNumber" id="candidate-number" required="" /><span id="hint">eg. PS0204011-132</span></td>
+                                    <td><input type="text" name="candidateNumber" id="candidate-number" required="" /><span id="hint">eg. D1225/132</span></td>
                                 </tr>
                                 <tr>
                                     <td></td>
@@ -343,7 +322,7 @@
             <div class="footer-column-title">ABOUT US</div>
             <div class="thick-hr-line"></div>
             <div class="footer-column-content">
-                <p>THE NATIONAL EXAMINATIONS COUNCIL OF TANZANIA (NECTA) is Government Institution which was established by the Parliamentary Act No. 21 of 1973. NECTA is responsible for the administration of all National Examinations in Tanzania. <a href="about.html" style="color: #13a651; text-decoration: underline">Read more</a></p>
+                <p>MPWAPWA TEACHER'S COLLEGE (MTC) is Government Institution which was established by the Parliamentary Act No. 21 of 1973. MTC is responsible for the administration of all National Examinations in Tanzania. <a href="about.html" style="color: #13a651; text-decoration: underline">Read more</a></p>
             </div>
         </div>
         <div class="footer-column">
