@@ -664,22 +664,22 @@ ul.time-list li {
 .thick-hr-line {
     width: 35px;
     height: 3px;
-    background-color: #f5f195;
+    background-color: #FFE4C4;
     background-color: #FFE4C4;
 }
 
 .wide-left {
     margin-left: 0;
     margin-bottom: 15px;
-    background: #13a651;
-    width: 50px;
+    background: #FFE4C4;
+    width: 80px;
 }
 
 .medium-left {
     margin-left: 0;
     margin-bottom: 15px;
-    background: #13a651;
-    width: 35px;
+    background: #FFE4C4;
+    width: 80px;
     margin-top: -7px;
 }
 
@@ -767,6 +767,20 @@ ul.time-list li {
     border: 1px solid #13a651;
     cursor: pointer;
     /*margin-bottom: 20px;*/
+}
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: pulple;
 }
 
 .get-results button:hover {
