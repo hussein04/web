@@ -1177,7 +1177,7 @@ ul.time-list li {
 }
 
 /*Mobile ccs styles*/
-@media screen and (max-width: 425px)  {
+@media screen and (max-width: 150px)  {
     body {
         font-size: 15px !important;
     }
