@@ -1402,7 +1402,7 @@ ul.time-list li {
     }
 
     .menu li {
-        width: 200px;
+        width: 250px;
     }
 
     .menu li > ul li {
@@ -1432,8 +1432,8 @@ ul.time-list li {
     .menu li a.current {
         color: #13a651 !important;
         color: white !important;
-        border-left: 3px solid #13a651;
-        border-left: 3px solid #f5f195;
+        border-left: 1px solid #13a651;
+        border-left: 1px solid #f5f195;
         border-bottom: 0 !important;
         background: #474747;
     }
