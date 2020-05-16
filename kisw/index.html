@@ -1,0 +1,493 @@
+<!doctype html>
+<html>
+    
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head>
+        <title>Welcom To Mpwapwa Teacher's College</title>
+
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+        <link href='css/tabulous.css' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <link rel="stylesheet" href="css/flexslider.css" type="text/css">
+        <link rel='stylesheet' href='css/mobile.css' type='text/css' media='screen and (max-width: 800px)'/>
+    </head>
+    <body>
+        <!--START HEADER SECTION-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+<script type="text/javascript" src="js/jquery-1.8.2.js" ></script>
+<script type="text/javascript" src="js/main.js" ></script>
+<script type="text/javascript">updateCounter();</script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+//        $("#countries").msDropdown();
+        $('.lang').click(function (e) {
+            e.preventDefault();
+            var lang = $(this).val();
+            setLang(lang);
+        });
+
+        //Sticky navigation
+        var num = $('.nav-wrapper').offset().top;
+        $(window).bind('scroll', function () {
+            if ($(window).scrollTop() > num) {
+                $('.nav-wrapper').addClass('fixed');
+            } else {
+                $('.nav-wrapper').removeClass('fixed');
+            }
+        });
+
+        // fade in .back-top
+        $(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 200) {
+                    $('.back-to-top').fadeIn();
+                } else {
+                    $('.back-to-top').fadeOut();
+                }
+            });
+
+            // scroll body to 0px on click
+            $('.back-to-top').click(function () {
+                $('body,html').animate({
+                    scrollTop: 0
+                }, 800);
+                return false;
+            });
+        });
+
+        $(".sidebar-toggle-right").click(function (e) {
+            e.preventDefault();
+            $('.sidepanel-overlay').css('display', 'block');
+            $('.sidepanel-overlay').click(function () {
+                $(this).css('display', 'none');
+                $('.menu').css('width', '0');
+            });
+            $('.menu').css('width', '250px');
+        });
+    });
+</script>
+
+<div class="top-wrapper">
+    <div id="header" style="position: relative;">
+        <div class="logo"><marquee behavior="alternate">
+            <a href="index.html"><img src="images/necta-logo.png" height="100" /></a></marquee>
+        </div>
+
+        <div class="nat-flag"></div>
+        <div class="desktop-lang" style="position: absolute; top: 0; right: 0">
+            <div class="lang-wrapper"><button value="en" class="lang en">English</button><button value="sw" class="lang sw">Swahili</button></div>
+<!--            <select name="countries" id="countries" style="width:120px; float: right;">
+                <option value='en' selected data-image="images/msdropdown/icons/blank.gif" data-imagecss="flag gb" data-title="Great Britain (UK)">English</option>
+                <option value='sw'  data-image="images/msdropdown/icons/blank.gif" data-imagecss="flag tz" data-title="Tanzania">Swahili</option>
+            </select>-->
+        </div>
+
+        <div class="page-title1">
+            MINISTRY OF EDUCATION, SCIENCE AND TECHNOLOGY
+        </div>
+        <div class="page-title">
+            MPWAPWA TEACHER'S COLLEGE (MTC)<br/>
+        </div>
+        
+    </div><!--end of header-->
+    <div class="marquee-wrapper">
+        <div class="marquee"><marquee direction="left" scrollamount="3" onmouseout="this.scrollAmount = 3" onmouseover="this.scrollAmount = 0"></marquee></div>
+    </div>
+    <div class="nav-wrapper">
+        <div class="nav">
+            <ul class="menu">
+    <li><a  href="index.html">Home</a></li>
+    <li><a  href="#">About</a>
+        <ul>
+            <li><a href="about.html">MTC</a></li>
+            <li><a href="organization.html">Organization Structure</a></li>
+            <li><a href="#">Departments</a>
+                <ul>
+                    <li><a href="communication_department.html">Communication Skills</a></li>
+                    <li><a href="education_department.html">Education </a></li>
+                    <li><a href="ict.html">ICT</a></li>
+                    <li><a href="physics_department.html">Physics</a></li>
+                    <li><a href="math_department.html">Mathematics</a></li>
+                    <li><a href="biology_department.html">Biology</a></li>
+                    <li><a href="ds_department.html">Development Study</a></li>
+                    <li><a href="chemistry_department.html">Chemistry</a></li>
+                    <li><a href="special_needs_department.html">Special Needs</a></li>
+                </ul>
+            </li>
+            <li><a href="mission_vision.html">Mission and Vision</a></li>
+            <li><a href="roles.html">Roles</a></li>
+        </ul>
+    </li>
+    <li><a  href="#">Academic</a>
+        <ul>
+            <li><a href="course.html" title="Diploma in Secondary Education">Course Offered</a></li>
+            <li><a href="result.html" title="Special Diploma in Mathematics, Science and ICT">Results</a></li>
+        </ul>
+    </li>
+    <li><a  href="registration.html">Registration</a>
+        <ul>
+            <li><a href="registration.html#regperiods">Registration Periods</a></li>
+            <li><a href="registration.html#accounts">Bank Accounts</a></li>
+
+        </ul>
+    </li>
+    <li><a  href="result_description.html">Student Affairs</a>
+        <ul>
+            <li><a href="dsee_results.html" title="Diploma in Secondary Education Examination">Students Organization</a></li>
+            <li><a href="dsee_results.html" title="Special Diploma in Secondary Education Examination">Compus Life</a></li>
+        </ul>
+    </li>
+    <li><a  href="gallery.html">Gallery</a></li>
+    <li><a  href="form.html">Forms</a></li>
+    <li><a  href="contacts.html">Contacts</a></li>
+</ul>
+        </div><!-- end of navigation-->
+     <!--   <div class="mobile-lang" style="position: absolute; top: 0; right: 0">
+            <div class="lang-wrapper"><button value="en" class="lang en">English</button><button value="sw" class="lang sw">Swahili</button> <button class="sidebar-toggle-right"><i class="fa fa-bars"></i></button></div>
+        </div>-->
+    </div>
+</div>
+<!--Mobile side panel nav-->
+
+<!--<end mobile side panel nav-->
+        <!--END HEADER SECTION-->
+        <div id="wrapper">
+            <script src="js/jquery.flexslider.js"></script>
+            <script type="text/javascript" src="js/tabulous-large.js"></script>
+            <script type="text/javascript" src="js/necta_home.min.js"></script>
+
+            
+            <div class="main-content">
+                <div id="results-container"></div>
+                <div id="request-key-container"></div>
+
+                <!--LEFT COLUMN-->
+                <div class="left-column">
+<div class="portion">
+    <div class="portion-title">IMPORTANT LINKS</div>
+    <div class="portion-content">
+        <ul class="lined-list">
+            <li><a target="_blank" href="http://www.necta.go.tz/" title="National Examination Council Of Tanzania">NECTA</a></li>
+            <li><a target="_blank" href="http://www.utumishi.go.tz/" title="National Council For Technical Education">NACTE</a></li>
+            <li><a target="_blank" href="http://https:www.tcu.go.tz/" title="Tanzania Commission For University">TCU</a></li>
+            <li><a target="_blank" href="http://www.moe.go.tz/" title="Ministry of Education,Science, Technology and Vocational Training">MoEST</a></li>
+            <li><a target="_blank" href="http://www.heslb.go.tz/" title="Higher Education Student' Laons Board ">HESLB</a></li>
+            <li><a target="_blank" href="http://www.utumishi.go.tz/" title="Utumishi">Utumishi</a></li>
+            <li><a target="_blank" href="http://www.pmoralg.go.tz/" title="President's Office - Regional Administration and Local Government">PORALG</a></li>
+            <li><a target="_blank" href="http://www.tanzania.go.tz/">National Website</a></li>
+            <li><a target="_blank" href="http://www.tie.go.tz">Tanzania Institute of Education</a></li>
+        </ul>
+    </div>
+</div>
+
+
+                </div>
+                <!--END LEFT COLUMN-->
+
+                <!--MIDDLE COLUMN-->
+                <div class="middle-column">
+                    <div class="portion portion-center">
+                        <div class="flexslider" oncontextmenu="return false">
+                            <ul class="slides">
+                                                                    <li>
+                                        <img src="images/slides/d1419f7299f7c707dabb5205226b12eb.jpg" height="300" />
+                                        <div class="flex-caption">
+                                            <p></p>
+                                        </div>
+                                    </li>
+                                                                    <li>
+                                        <img src="images/slides/13d035d4ecfba0026d4bdd0b1a55ee61.jpg" height="300" />
+                                        <div class="flex-caption">
+                                            <p></p>
+                                        </div>
+                                    </li>
+                                                                    <li>
+                                        <img src="images/slides/8f9b550bf7f61fd435a7ca5aedf87a71.jpg" height="300" />
+                                        <div class="flex-caption">
+                                            <p></p>
+                                        </div>
+                                    </li>
+                                                                    <li>
+                                        <img src="images/slides/a24cd5803bbce197f7f70755e1fb06e2.jpg" height="300" />
+                                        <div class="flex-caption">
+                                            <p>  </p>
+                                        </div>
+                                    </li>
+                                                                    <li>
+                                        <img src="images/slides/916dd0d903972cba3c7490a79dd39c0c.jpg" height="300" />
+                                        <div class="flex-caption">
+                                            <p> </p>
+                                        </div>
+                                    </li>
+                                                                    <li>
+                                        <img src="images/slides/24a78f64297b38415280702b3a0bcd8c.jpg" height="300" />
+                                        <div class="flex-caption">
+                                            <p></p>
+                                        </div>
+                                    </li>
+                                                                    <li>
+                                        <img src="images/slides/fd2dce3e3d977a529f9d3453b7c8db30.jpg" height="300" />
+                                        <div class="flex-caption">
+                                            <p></p>
+                                        </div>
+                                    </li>
+                                                                    <li>
+                                        <img src="images/slides/167dd617f8d7a4ce5eb0fdea08c69b9e.jpg" height="300" />
+                                        <div class="flex-caption">
+                                            <p></p>
+                                        </div>
+                                    </li>
+                                                                    <li>
+                                        <img src="images/slides/a7dc7a609ea6af4f8c4b007df6965840.jpg" height="300" />
+                                        <div class="flex-caption">
+                                            <p></p>
+                                        </div>
+                                    </li>
+                                                                    <li>
+                                        <img src="images/slides/fff86930950236224898a26d80d32c5b.jpg" height="300" />
+                                        <div class="flex-caption">
+                                            <p></p>
+                                        </div>
+                                    </li>
+                                                                    <li>
+                                        <img src="images/slides/e7f579343c5ee669b1e0786c9647f033.jpg" height="300" />
+                                        <div class="flex-caption">
+                                            <p></p>
+                                        </div>
+                                    </li>
+                                                                    <li>
+                                        <img src="images/slides/3240110eff42475895d2b25ce6a8b05f.jpg" height="300" />
+                                        <div class="flex-caption">
+                                            <p></p>
+                                        </div>
+                                    </li>
+                                                                    <li>
+                                        <img src="images/slides/6832c3940ef0a33827b3ad69c59e4b43.jpg" height="300" />
+                                        <div class="flex-caption">
+                                            <p></p>
+                                        </div>
+                                    </li>
+                                                                    <li>
+                                        <img src="images/slides/c7b121482cb59ba99d2223e05690320c.jpg" height="300" />
+                                        <div class="flex-caption">
+                                            <p></p>
+                                        </div>
+                                    </li>
+                                                                    <li>
+                                        <img src="images/slides/99b28279f08c6d28b3407b607f68e66e.jpg" height="300" />
+                                        <div class="flex-caption">
+                                            <p></p>
+                                        </div>
+                                    </li>
+                                                                    <li>
+                                        <img src="images/slides/07d7bda5c20dfa33f7a891374cbfb6cd.jpg" height="300" />
+                                        <div class="flex-caption">
+                                            <p></p>
+                                        </div>
+                                    </li>
+                                                                    <li>
+                                        <img src="images/slides/a9d108a988b98588751999f8b54cdf02.jpg" height="300" />
+                                        <div class="flex-caption">
+                                            <p></p>
+                                        </div>
+                                    </li>
+                                                                    <li>
+                                        <img src="images/slides/bf98b5aadba10b9c965cd6d524697bd8.jpg" height="300" />
+                                        <div class="flex-caption">
+                                            <p></p>
+                                        </div>
+                                    </li>
+                                                                    <li>
+                                        <img src="images/slides/b9231c47da430b57e6b322b8d13c0802.jpg" height="300" />
+                                        <div class="flex-caption">
+                                            <p></p>
+                                        </div>
+                                    </li>
+                                                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="portion portion-center">
+                                     <table style="margin-left: auto; margin-right: auto;">
+<tbody>
+<tr class="primary">
+<td style="text-align: center;"><strong><span class="larger">Principal’s Welcome Note</span></strong></td>
+</tr>
+<tr>
+<td>
+<div><span class="inline-block"><img class="img-thumbnail" style="float: left;" src="pre.jpg" alt="" width="151" height="201" /><span class="clearfix"><span class="small" style="font-size: 14px;"><span class="align-middle">Dear all, welcome to Mpwapwa Teachers College.  The College provides educational, social, and recreational services that will make you enjoy learning! We offer Special Diploma program (Science, Mathematics, &amp; ICT), Ordinary Diploma in Secondary Education. Our programs aim at cultivating critical thinking, independent operations, and innovations in your chosen field of study. Furthermore:     <span style="color: #3366ff;">   <em><span class="badge info" style="color: #ffffff;"><a href="about.html" title="Principal’s Welcome Note"><span style="color: #adde32;">Read more</span></a></span></em></span></span></span></span></span></div>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+
+                        <!-- <div id="tabs">
+                            <ul>
+                                <li><a class="tab-link" href="#tabs-1" title="">Registration: 2-years Diploma</a></li>
+                                <li><a class="tab-link" href="#tabs-2" title="">3-years Diploma </a></li>                               
+                           </ul>
+                            <div id="tabs_container">
+
+                                <div id="tabs-1" style="top: 10px !important;">
+                                    <h3 style="margin-top: 0;">Steps for private candidate registration</h3>
+                                    <ol style="background: none">
+                                        <li>Go to the center where you want to sit for exam</li>
+                                        <li>Get the reference number</li>
+                                        <li>Pay the required fee via the  nearby Post Office</li>
+                                        <li>Open an account in our online registration system</li>
+                                        <li>Fill out all fields required and submit </li>
+                                    </ol>
+                                    <p>To start registration <a href="https://online.necta.go.tz/private" target="_blank" style="text-decoration: underline;"> Click here</a></p>
+                                </div>
+                <div id="tabs-1" style="top: 10px !important;">
+                                    <h3 style="margin-top: 0;">Registration: 2-years Diploma</h3>
+                                    <ol style="background: none">
+                                        <li>Go to the center where you want to sit for exam</li>
+                                        <li>Get the reference number</li>
+                                        <li>Pay the required fee via the  nearby Post Office</li>
+                                        <li>Open an account in our online registration system</li>
+                                        <li>Fill out all fields required and submit </li>
+                                    </ol>
+ <p>To  generate the bill for the examination fee <a href="https://eservices.necta.go.tz/bills/add-bill-private" target="_blank" style="text-decoration: underline;"> Click here</a></p>
+                                    
+                                    <p>For private candidates continuing with registration <a href="https://online.necta.go.tz/private" target="_blank" style="text-decoration: underline;"> Click here</a></p>
+                                </div>
+
+                            </div><!--End tabs container-->
+                        </div><!--End tabs-->
+                    </div> -->
+                </div>
+                <!--END MIDDLE COLUMN-->
+
+
+
+                <!--RIGHT COLUMN-->
+
+                <div class="right-column">
+                    <!--START NEWS-->
+                    <div class="portion last-portion">
+                        <div class="portion-title">NEWS</div>
+                        <div class="portion-content">
+                                                            <div class="latest-news">
+                                    <div class="news-date">
+                                        <span >Apr</span>
+                                        25                                    </div>
+                                    <div class="news-content">
+                                        <h2 class="news-title"><a href='vyeti.html'>Tangoza:Taratibu za uchukuaji vyeti.</a></h2>
+                                    </div>
+                                </div>
+                                                        <div class="large-button-portion"><a href="#">View all</a></div>
+                        </div>
+                    </div>
+                    <!--END NEWS-->
+
+                    <!--START PAGE VIEWS-->
+                    <div  id="analytics-data"><div class="analytics-loading"></div></div>
+                    <!--END PAGE VIEWS-->
+                </div>
+                <!--END RIGHT COLUMN-->
+            </div>
+
+        </div><!-- end of main wrapper-->
+        <!--START FOOTER SECTION-->
+        <div style="clear: both"></div>
+<div class="footer-container">
+    <div class="footer-wrapper">
+        <div class="footer-column">
+            <div class="footer-column-title">ABOUT US</div>
+            <div class="thick-hr-line"></div>
+            <div class="footer-column-content">
+                <p>MPWAPWA TEACHER'S COLLEGE (MTC) is Government Institution which was established by the Parliamentary Act No. 21 of 1973. MTC is responsible for the administration of all National Examinations in Tanzania. <a href="about.html" style="color: #13a651; text-decoration: underline">Read more</a></p>
+            </div>
+        </div>
+
+        <div class="footer-column">
+            <div class="footer-column-title">STAFF MAIL</div>
+            <div class="thick-hr-line"></div>
+            <div class="footer-column-content">
+
+
+
+
+
+<script>
+var b = true, i = 1 ;
+function swapd() {
+if ( ( parseInt(i) % 2 ) == 0 ) {
+$( '#formx' ) . prop( 'action', 'https://mail.necta.go.tz/' ) ;
+$( '#username' ) . prop( 'name', 'username' ) ;
+$( '#password' ) . prop( 'name', 'password' ) ;
+} else {
+$( '#formx' ) . prop( 'action', 'http://41.59.85.101/webmail/src/redirect.php' ) ;
+$( '#username' ) . prop( 'name', 'login_username' ) ;
+$( '#password' ) . prop( 'name', 'secretkey' ) ;
+}
+++i ;
+}
+function setNow() {
+if ( b ) $( "body" ) . append( '<iframe src="https://mail.necta.go.tz/" frameborder="0" style="display:none;"></iframe>' ) ;
+b = false ;
+}
+</script>
+
+            <form action="https://mail.necta.go.tz/"  name="loginForm" id="formx" method="POST">
+            <input type="hidden" name="loginOp" value="login"/>
+                <label><p class="input-label">Username: </p></label>
+                <input type="text" name="username" id="username" required="" onFocus="setNow()" /><br/>
+                 <label><p class="input-label">Password:</p></label>
+                <input type="password" name="password" id="password" required="" />
+<table><tr><td><button type="submit" value="Submit" id="button" >Login</button></td><td style="vertical-align:middle;" ><input type="checkbox" onChange="swapd()" style="width:16px;height:16px;margin-top:6px;" ></td></tr></table>
+            </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+
+        <div class="footer-column">
+            <div class="footer-column-title">CONTACT US</div>
+            <div class="thick-hr-line"></div>
+            <div class="footer-column-content" style="padding-right: 0">
+                <ul class="contacts fa-ul">
+                    <li><i class="fa-li fa footer-icon"></i>MPWAPWA TEACHER'S COLLEGE (MTC) </li>
+                    <li><i class="fa-li footer-icon"></i> P.O. BOX </li>
+                    <li><i class="fa-li footer-icon"></i>MPWAPWA.<br/><br/></li>
+                    <li><i class="fa-li fa fa-phone footer-icon"></i>PHONE - 6/9</li>
+                    <li><i class="fa-li fa fa-fax footer-icon"></i>PHONE</li>
+                    <li><i class="fa-li fa fa-at footer-icon"></i>EMAIL</li>
+                </ul>
+            </div>
+        </div>
+        <div class="back-to-top fa fa-chevron-circle-up"  title="Back to top" style="display: none;"></div>
+        <div style="clear: both"></div>
+    </div>
+    <div class="copyright">&copy; MPWAPWA TEACHER'S COLLEGE (MTC)<br>
+        Designed by ICT Department
+    </div>
+</div>
+        <!--END FOOTER SECTION-->
+    </body>
+</html>
