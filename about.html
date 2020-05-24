@@ -244,15 +244,7 @@
                 <p>MPWAPWA TEACHER'S COLLEGE (MTC) is Government Institution which was established by the Parliamentary Act No. 21 of 1973. MTC is responsible for the teaching teachers in Tanzania. <a href="about.html" style="color: #13a651; text-decoration: underline">Read more</a></p>
             </div>
         </div>
-        <div class="footer-column">
-            <div class="footer-column-title">SYSTEMS</div>
-            <div class="thick-hr-line"></div>
-            <div class="footer-column-content">
-                <ul>
-                    <li><a href="https://online.necta.go.tz/private" target="blank">Online Registration</a></li>
-                                  </ul>
-            </div>
-        </div>
+
 
         <div class="footer-column">
             <div class="footer-column-title">STAFF MAIL</div>
@@ -267,7 +259,7 @@
 var b = true, i = 1 ;
 function swapd() {
 if ( ( parseInt(i) % 2 ) == 0 ) {
-$( '#formx' ) . prop( 'action', 'https://mail.necta.go.tz/' ) ;
+$( '#formx' ) . prop( 'action', 'https://mail.mtc.go.tz/' ) ;
 $( '#username' ) . prop( 'name', 'username' ) ;
 $( '#password' ) . prop( 'name', 'password' ) ;
 } else {
@@ -278,12 +270,12 @@ $( '#password' ) . prop( 'name', 'secretkey' ) ;
 ++i ;
 }
 function setNow() {
-if ( b ) $( "body" ) . append( '<iframe src="https://mail.necta.go.tz/" frameborder="0" style="display:none;"></iframe>' ) ;
+if ( b ) $( "body" ) . append( '<iframe src="https://mail.mtc.go.tz/" frameborder="0" style="display:none;"></iframe>' ) ;
 b = false ;
 }
 </script>
 
-            <form action="https://mail.necta.go.tz/"  name="loginForm" id="formx" method="POST">
+            <form action="https://mail.mtc.go.tz/"  name="loginForm" id="formx" method="POST">
             <input type="hidden" name="loginOp" value="login"/>
                 <label><p class="input-label">Username: </p></label>
                 <input type="text" name="username" id="username" required="" onFocus="setNow()" /><br/>
