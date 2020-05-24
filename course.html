@@ -1,14 +1,48 @@
 <!doctype html>
 <html>
-    
-<!-- Mirrored from www.necta.go.tz/psle by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 17 Apr 2020 19:32:13 GMT -->
-<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <head>
-        <title>MTC | Courses</title>
+        <title>MTC | Contact us</title>
         <link rel="stylesheet" type="text/css" href="css/main.css">
+
+        <script type="text/javascript" src="js/jquery-1.8.2.js" ></script>
+        <script type="text/javascript" src="js/main.js" ></script>
+        <script type="text/javascript" src="https://maps.google.com/maps/api/js?key=AIzaSyCYpmbNTVeLU-1ApSs_XgIpXqXCgItbpWY"></script>
+        <script src='../www.google.com/recaptcha/api.js'></script>
+        <script type="text/javascript" src="js/gmaps.js" ></script>
+
+        <script type="text/javascript">
+            $(document).ready(function () {
+                //reCAPTCHA codes
+                $('#mail-form').submit(function (e) {
+                    e.preventDefault();
+                    $formData = $(this).serialize(); // Get email form data
+                    sendEmail($formData); // Send email
+                });
+
+                /*//Google maps codes
+                var map = new GMaps({
+                    div: '#map',
+                    lat: -6.76948,
+                    lng: 39.23738
+                });
+
+                map.addMarker({
+                    lat: -6.76948,
+                    lng: 39.23738,
+                    title: 'Mpwapwa Teachers College'
+                });
+
+                $('.message').fadeIn().delay(6000).fadeOut();*/
+
+                //Close message
+                $('.close').live('click', function () {
+                    $('#msg').children().fadeOut('slow');
+                });
+            });
+        </script>
     </head>
     <body>
-
         <!--START HEADER SECTION-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
@@ -70,20 +104,27 @@
 
 <div class="top-wrapper">
     <div id="header" style="position: relative;">
-        <div class="logo">
-            <a href="index.html"><img src="images/necta-logo.png" height="100" /></a>
-        </div>
-        <div class="page-title">
-            THE NATIONAL EXAMINATIONS COUNCIL OF TANZANIA<br/>
+        <div class="logo"><marquee behavior="alternate">
+            <a href="index.html"><img src="images/mtc-logo.png" height="100" /></a></marquee>
         </div>
         <div class="nat-flag"></div>
         <div class="desktop-lang" style="position: absolute; top: 0; right: 0">
-            <div class="lang-wrapper"><button value="en" class="lang en">English</button><button value="sw" class="lang sw">Swahili</button></div>
+            <div class="lang-wrapper">
+                <button><a href="course.html">English</a></button>
+                <button><a href=./kisw/course.html>Swahili</a></button>
+            </div>
 <!--            <select name="countries" id="countries" style="width:120px; float: right;">
                 <option value='en' selected data-image="images/msdropdown/icons/blank.gif" data-imagecss="flag gb" data-title="Great Britain (UK)">English</option>
                 <option value='sw'  data-image="images/msdropdown/icons/blank.gif" data-imagecss="flag tz" data-title="Tanzania">Swahili</option>
             </select>-->
         </div>
+        <div class="page-title1">
+            MINISTRY OF EDUCATION, SCIENCE AND TECHNOLOGY
+        </div>
+        <div class="page-title">
+            MPWAPWA TEACHER'S COLLEGE (MTC)<br/>
+        </div>
+
     </div><!--end of header-->
     <div class="marquee-wrapper">
         <div class="marquee"><marquee direction="left" scrollamount="3" onmouseout="this.scrollAmount = 3" onmouseover="this.scrollAmount = 0"></marquee></div>
@@ -160,7 +201,7 @@
                             <div class="thick-hr-line medium-left"></div>
                             <table width="100%">
                                 <tbody>
-                                    <tr><th rowspan="1">COURSE</th><th colspan="2">Periods tAKEN</th></tr>
+                                    <tr><th rowspan="1">COURSE</th><th colspan="2">Periods taken</th></tr>
                                     <tr><td><a href="dsee.html">Diploma In Secondary Education</a></td><td>2-Years</td></tr>
                                     <tr><td><a href="sdsee.html">Special Diploma In Science, Mathematics and ICT</a></td>
                                         <td>3-Years</td>
@@ -168,7 +209,7 @@
                                 </tbody>
                             </table>
                             <h2><b>NOTE</b></h2>
-                            <p>Clicj in a course to see description of your course you select.</p>
+                            <p>Click on Course to read more course instructions.</p>
                         </div>
 
                         <p></p>
@@ -183,42 +224,19 @@
 
                 <!--RIGHT COLUMN-->
                 <div class="right-column">
-                    <div class="portion">
-    <div class="portion-title">QUICK LINKS</div>
-    <div class="portion-content">
-        <ul class="lined-list">
-            <li><a href="https://prem.necta.go.tz/prem/" target="_tab">Statistics Primary Schools</a></li>
-            <li><a href="approved_exam_guides.html" target="_tab">Approved Exam Guides</a></li>
-            
-           <li><a href="approved_exam_formats.html" target="_tab">Approved Exam Formats</a></li>
-
-            <li><a href="https://eservices.necta.go.tz/" target="_tab">Online Registration</a></li>
-            <li><a href="registration.html#fees">Registration Fees</a></li>
-            <li><a href="registration.html#regperiods">Registration Periods</a></li>
-            <li><a href="registration.html#accounts">Bank Accounts</a></li>
-           <!-- <li><a href="https://online.necta.go.tz/opendata/" target="_tab">Education Dashboard</a></li>-->
-            <!--<li><a href="staff_email.php" target="_blank">Staff Email</a></li>-->
-            <li><a href="about.html">About NECTA</a></li>
-            <li><a href="exams_regulations.html">Examination Regulations</a></li>
-        </ul>
-    </div>
-</div>
-
 <div class="portion">
     <div class="portion-title">RELATED LINKS</div>
     <div class="portion-content">
         <ul class="lined-list">
+            <li><a target="_blank" href="http://www.necta.go.tz/" title="National Examination Council Of Tanzania">NECTA</a></li>
+            <li><a target="_blank" href="http://www.utumishi.go.tz/" title="National Council For Technical Education">NACTE</a></li>
+            <li><a target="_blank" href="http://https:www.tcu.go.tz/" title="Tanzania Commission For University">TCU</a></li>
             <li><a target="_blank" href="http://www.moe.go.tz/" title="Ministry of Education,Science, Technology and Vocational Training">MoEST</a></li>
-            <li><a target="_blank" href="http://www.moez.go.tz/" title="Ministry of Education - Zanzibar">MoE-Zanzibar</a></li>
+            <li><a target="_blank" href="http://www.heslb.go.tz/" title="Higher Education Student' Laons Board ">HESLB</a></li>
             <li><a target="_blank" href="http://www.utumishi.go.tz/" title="Utumishi">Utumishi</a></li>
             <li><a target="_blank" href="http://www.pmoralg.go.tz/" title="President's Office - Regional Administration and Local Government">PORALG</a></li>
             <li><a target="_blank" href="http://www.tanzania.go.tz/">National Website</a></li>
-<!--            <li><a target="_blank" href="http://www.sacmeq.org" title="The Southern and Eastern Africa Consortium for Monitoring Educational Quality">SACMEQ</a></li>
-            <li><a target="_blank" href="http://www.udsm.ac.tz">University of Dar es Salaam</a></li>
             <li><a target="_blank" href="http://www.tie.go.tz">Tanzania Institute of Education</a></li>
-            <li><a target="_blank" href="http://www.nacte.go.tz" title="The National Council for Technical Education">NACTE</a></li>
-            <li><a target="_blank" href="http://www.tcu.go.tz" title="Tanzania Commission for Universities">TCU</a></li>
-            <li><a target="_blank" href="http://www.veta.go.tz" title="Vocational Education And Training Authority">VETA</a></li>-->
         </ul>
     </div>
 </div>
@@ -237,7 +255,7 @@
             <div class="footer-column-title">ABOUT US</div>
             <div class="thick-hr-line"></div>
             <div class="footer-column-content">
-                <p>THE NATIONAL EXAMINATIONS COUNCIL OF TANZANIA (NECTA) is Government Institution which was established by the Parliamentary Act No. 21 of 1973. NECTA is responsible for the administration of all National Examinations in Tanzania. <a href="about.html" style="color: #13a651; text-decoration: underline">Read more</a></p>
+                <p>MPWAPWA TEACHER'S COLLEGE (MTC) is Government Institution. <a href="about.html" style="color: #13a651; text-decoration: underline">Read more</a></p>
             </div>
         </div>
         <div class="footer-column">
@@ -246,7 +264,6 @@
             <div class="footer-column-content">
                 <ul>
                     <li><a href="https://online.necta.go.tz/private" target="blank">Online Registration</a></li>
-                    <li><a href="https://prem.necta.go.tz/prem/" target="blank" title="Primary Records Manager">PReM</a></li>
                                   </ul>
             </div>
         </div>
@@ -314,24 +331,22 @@ b = false ;
             <div class="thick-hr-line"></div>
             <div class="footer-column-content" style="padding-right: 0">
                 <ul class="contacts fa-ul">
-                    <li><i class="fa-li fa fa-envelope footer-icon"></i>The Executive Secretary,</li>
-                    <li><i class="fa-li fa footer-icon"></i>The National Examinations Council of Tanzania </li>
-                    <li><i class="fa-li footer-icon"></i> P.O. BOX 2624 OR 32019</li>
-                    <li><i class="fa-li footer-icon"></i>Dar es Salaam.<br/><br/></li>
-                    <li><i class="fa-li fa fa-phone footer-icon"></i>+255-22-2700493 - 6/9</li>
-                    <li><i class="fa-li fa fa-fax footer-icon"></i>+255-22-2775966</li>
-                    <li><i class="fa-li fa fa-at footer-icon"></i>esnecta@necta.go.tz</li>
+                    <li><i class="fa-li fa footer-icon"></i>MPWAPWA TEACHER'S COLLEGE (MTC) </li>
+                    <li><i class="fa-li footer-icon"></i> P.O. BOX 34</li>
+                    <li><i class="fa-li footer-icon"></i>MPWAPWA.<br/><br/></li>
+                    <li><i class="fa-li fa fa-phone footer-icon"></i>PHONE</li>
+                    <li><i class="fa-li fa fa-fax footer-icon"></i>PHONE</li>
+                    <li><i class="fa-li fa fa-at footer-icon"></i>EMAIL: mpwapwatc@gmail.com</li>
                 </ul>
             </div>
         </div>
         <div class="back-to-top fa fa-chevron-circle-up"  title="Back to top" style="display: none;"></div>
         <div style="clear: both"></div>
     </div>
-    <div class="copyright">&copy; 2020 The National Examinations Council of Tanzania</div>
+    <div class="copyright">&copy; 2020 MPWAPWA TEACHER'S COLLEGE (MTC)<br>
+        Designed by ICT Department</div>
 </div>
         <!--END FOOTER SECTION-->
 
     </body>
-
-<!-- Mirrored from www.necta.go.tz/psle by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 17 Apr 2020 19:32:13 GMT -->
 </html>
