@@ -1175,24 +1175,6 @@ ul.time-list li {
 .mobile-lang {
     display: none;
 }
-.news-content h2 blink {
-  -webkit-animation: 2s linear infinite condemned_blink_effect; /* for Safari 4.0 - 8.0 */
-  animation: 2s linear infinite condemned_blink_effect;
-}
-
-/* for Safari 4.0 - 8.0 */
-
-@keyframes condemned_blink_effect {
-  0% {
-    visibility: hidden;
-  }
-  50% {
-    visibility: hidden;
-  }
-  100% {
-    visibility: visible;
-  }
-}
 
 /*Mobile ccs styles*/
 @media screen and (max-width: 425px)  {
