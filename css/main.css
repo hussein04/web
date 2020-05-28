@@ -1175,15 +1175,23 @@ ul.time-list li {
 .mobile-lang {
     display: none;
 }
-.blinking{
-    animation:blinkingText 1.2s infinite;
+.news-content h2 blink {
+  -webkit-animation: 2s linear infinite condemned_blink_effect; /* for Safari 4.0 - 8.0 */
+  animation: 2s linear infinite condemned_blink_effect;
 }
-@keyframes blinkingText{
-    0%{     color: #000;    }
-    49%{    color: #000; }
-    60%{    color: transparent; }
-    99%{    color:transparent;  }
-    100%{   color: #000;    }
+
+/* for Safari 4.0 - 8.0 */
+
+@keyframes condemned_blink_effect {
+  0% {
+    visibility: hidden;
+  }
+  50% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
 }
 
 /*Mobile ccs styles*/
