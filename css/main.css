@@ -1211,7 +1211,7 @@ ul.time-list li {
     }
 
     #map {
-        width: 100%;
+        width: 99%;
         height: 250px;
     }
 
@@ -1244,7 +1244,7 @@ ul.time-list li {
     }
 
     #tabs_container {
-        width: 100%;
+        width: 99%;
         box-sizing: border-box;
     }
 
@@ -1266,21 +1266,21 @@ ul.time-list li {
     }
     .right-column {
         float: none !important;
-        width: 100%;
+        width: 99%;
         padding-left: 10px;
         padding-right: 10px;
         box-sizing: border-box;
     }
     .middle-column {
         float: none !important;
-        width: 100%;
+        width: 99%;
         /*        padding-left: 10px;
                 padding-right: 10px;*/
         box-sizing: border-box;
     }
     .portion.portion-center.mobile {
         float: none !important;
-        width: 100%;
+        width: 99%;
         padding-left: 10px;
         padding-right: 10px;
         box-sizing: border-box;
@@ -1289,7 +1289,7 @@ ul.time-list li {
         position: relative
     }
     .portion {
-        width: 100%;
+        width: 99%;
     }
     .main-content {
         margin-top: 0;
@@ -1317,7 +1317,7 @@ ul.time-list li {
         height: 40px;
     }
     .footer-column-content button {
-        width: 100%;
+        width: 99%;
         box-sizing: border-box;
         padding-top: 11px;
         padding-bottom: 11px;
@@ -1354,7 +1354,7 @@ ul.time-list li {
     }
 
     .marquee{
-        width: 100%;
+        width: 99%;
         height: 25px;
         line-height: 25px;
         padding-left: 10px;
@@ -1402,7 +1402,7 @@ ul.time-list li {
     }
 
     .menu li {
-        width: 250px;
+        width: 99px;
     }
 
     .menu li > ul li {
@@ -1452,17 +1452,17 @@ ul.time-list li {
     }
 
     .full_width {
-        width: 100% !important;
+        width: 99% !important;
         box-sizing: border-box;
     }
 
     .right-column {
         float: none;
-        width: 100% !important;
+        width: 99% !important;
     }
 
     .left-common-colum {
-        width: 100% !important;
+        width: 99% !important;
         padding-top: 10px;
         padding-left: 10px;
         padding-right: 10px;
@@ -1470,7 +1470,7 @@ ul.time-list li {
     }
 
     .contact-text {
-        width: 100%;
+        width: 99%;
         padding: 5px 8px;
         border-radius: 3px;
         font-size: 14px;
@@ -1483,7 +1483,7 @@ ul.time-list li {
         padding: 12px 15px;
         border-radius: 3px;
         font-size: 14px;
-        width: 100%;
+        width: 99%;
         box-sizing: border-box;
     }
 
