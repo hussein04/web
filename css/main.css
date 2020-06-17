@@ -1250,7 +1250,7 @@ ul.time-list li {
 
     #wrapper, .top-wrapper, .footer-wrapper, .marquee, .right-column,
     .portion-center, .footer-column {
-        width: 100% !important;
+        width: 99% !important;
         max-width: 100% !important;
         float: none !important;
     }
