@@ -1251,12 +1251,12 @@ ul.time-list li {
     #wrapper, .top-wrapper, .footer-wrapper, .marquee, .right-column,
     .portion-center, .footer-column {
         width: 90% !important;
-        max-width: 100% !important;
+        max-width: 99% !important;
         float: none !important;
     }
 
     #wrapper {
-        margin-top: 90px;
+        margin-top: 100px;
     }
     .lang-wrapper {
         margin-top: 15px;
