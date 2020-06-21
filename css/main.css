@@ -1177,7 +1177,7 @@ ul.time-list li {
 }
 
 /*Mobile ccs styles*/
-@media screen and (max-width:345px)  {
+@media screen and (max-width: 425px)  {
     body {
         font-size: 15px !important;
     }
@@ -1211,7 +1211,7 @@ ul.time-list li {
     }
 
     #map {
-        width: 99%;
+        width: 100%;
         height: 250px;
     }
 
@@ -1244,19 +1244,19 @@ ul.time-list li {
     }
 
     #tabs_container {
-        width: 99%;
+        width: 100%;
         box-sizing: border-box;
     }
 
     #wrapper, .top-wrapper, .footer-wrapper, .marquee, .right-column,
     .portion-center, .footer-column {
-        width: 90% !important;
-        max-width: 99% !important;
+        width: 100% !important;
+        max-width: 100% !important;
         float: none !important;
     }
 
     #wrapper {
-        margin-top: 100px;
+        margin-top: 90px;
     }
     .lang-wrapper {
         margin-top: 15px;
@@ -1266,21 +1266,21 @@ ul.time-list li {
     }
     .right-column {
         float: none !important;
-        width: 99%;
+        width: 100%;
         padding-left: 10px;
         padding-right: 10px;
         box-sizing: border-box;
     }
     .middle-column {
         float: none !important;
-        width: 99%;
+        width: 100%;
         /*        padding-left: 10px;
                 padding-right: 10px;*/
         box-sizing: border-box;
     }
     .portion.portion-center.mobile {
         float: none !important;
-        width: 99%;
+        width: 100%;
         padding-left: 10px;
         padding-right: 10px;
         box-sizing: border-box;
@@ -1289,7 +1289,7 @@ ul.time-list li {
         position: relative
     }
     .portion {
-        width: 99%;
+        width: 100%;
     }
     .main-content {
         margin-top: 0;
@@ -1317,7 +1317,7 @@ ul.time-list li {
         height: 40px;
     }
     .footer-column-content button {
-        width: 90%;
+        width: 100%;
         box-sizing: border-box;
         padding-top: 11px;
         padding-bottom: 11px;
@@ -1349,12 +1349,18 @@ ul.time-list li {
         font-size: 16px;
         display: none;
     }
+    .page-title1 {
+        width: auto;
+        line-height: 20px;
+        font-size: 16px;
+        display: none;
+    }
     .nat-flag {
         display: none;
     }
 
     .marquee{
-        width: 99%;
+        width: 100%;
         height: 25px;
         line-height: 25px;
         padding-left: 10px;
@@ -1402,7 +1408,7 @@ ul.time-list li {
     }
 
     .menu li {
-        width: 99px;
+        width: 250px;
     }
 
     .menu li > ul li {
@@ -1432,8 +1438,8 @@ ul.time-list li {
     .menu li a.current {
         color: #13a651 !important;
         color: white !important;
-        border-left: 1px solid #13a651;
-        border-left: 1px solid #f5f195;
+        border-left: 3px solid #13a651;
+        border-left: 3px solid #f5f195;
         border-bottom: 0 !important;
         background: #474747;
     }
@@ -1452,17 +1458,17 @@ ul.time-list li {
     }
 
     .full_width {
-        width: 99% !important;
+        width: 100% !important;
         box-sizing: border-box;
     }
 
     .right-column {
         float: none;
-        width: 99% !important;
+        width: 100% !important;
     }
 
     .left-common-colum {
-        width: 99% !important;
+        width: 100% !important;
         padding-top: 10px;
         padding-left: 10px;
         padding-right: 10px;
@@ -1470,7 +1476,7 @@ ul.time-list li {
     }
 
     .contact-text {
-        width: 99%;
+        width: 100%;
         padding: 5px 8px;
         border-radius: 3px;
         font-size: 14px;
@@ -1483,7 +1489,7 @@ ul.time-list li {
         padding: 12px 15px;
         border-radius: 3px;
         font-size: 14px;
-        width: 99%;
+        width: 100%;
         box-sizing: border-box;
     }
 
