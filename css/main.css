@@ -1311,6 +1311,12 @@ ul.time-list li {
         font-size: 16px;
         display: none;
     }
+    .page-title1 {
+        width: auto;
+        line-height: 20px;
+        font-size: 16px;
+        display: none;
+    }
     .nat-flag {
         display: none;
     }
