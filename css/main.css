@@ -1,4 +1,4 @@
- @font-face {
+@font-face {
     font-family: "Bebas Neue";
     /*src: url('fonts/segoeuil.ttf');*/
     src: url('fonts/BebasNeue%20Regular.otf');
@@ -29,7 +29,7 @@ body {
 #wrapper{
     width: 1000px;
     margin: 0 auto;
-    background-color: #e5e5e5;*/
+    /*background-color: #e5e5e5;*/
 }
 
 .logo {
@@ -51,30 +51,16 @@ body {
     background: #f8f8f8;
 }
 
-.page-title1 {
-    float: left;
-    width: 800px;
-    text-align: center;
-    font-weight: bold;
-    margin: 25px 0;
-    line-height: 40px;
-    font-size: 20px;
-    color: #6a5acd;
-    color: #6a5acd;
-}
-
-
-
 .page-title {
     float: left;
     width: 800px;
-    text-align: center;
+    text-align: left;
     font-weight: bold;
     margin: 25px 0;
     line-height: 40px;
     font-size: 20px;
     color: #444444;
-    color: #862609;
+    color: #13a651;
 }
 
 .news-date {
@@ -111,7 +97,7 @@ body {
     text-transform: uppercase;
     font-size: 10px;
     font-weight: normal;
-    background-color: #ff6347;
+    background-color: #13a651;
     text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.102);
     -webkit-border-top-left-radius: 2px;
     -webkit-border-top-right-radius: 2px;
@@ -259,7 +245,7 @@ body {
 
 .nav-wrapper {
     width: 100%;
-    background: url(../images/video-overlay.png) repeat #787878;
+    background: url(../images/video-overlay.png) repeat #13a651;
 }
 
 .nav {
@@ -267,7 +253,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     height: 45px;
-    background: url(../images/video-overlay.png) repeat #6a5acd;
+    background: url(../images/video-overlay.png) repeat #13a651;
 }
 
 .message-results {
@@ -375,7 +361,7 @@ body {
 }
 
 .nav ul li:hover {
-    background: #136afa;
+    background: #136651;
 }
 
 .nav ul li:hover a {
@@ -389,11 +375,10 @@ body {
 .nav ul li a {
     display: block;
     padding: 12px;
-    color: #fffada;
+    color: #fff876;
     text-decoration: none;
     border-bottom: 2px solid #13a651;
     border-right: 1px dotted #e5e5e5;
-    margin-left:39px;
 }
 
 .nav ul ul {
@@ -443,7 +428,7 @@ body {
 }
 
 .left-column {
-    width: 200px;
+    width: 265px;
     float: left;
 }
 
@@ -458,7 +443,7 @@ body {
 }
 
 .middle-column {
-    width: 500px;
+    width: 470px;
     float: left;
 }
 
@@ -505,7 +490,7 @@ body {
 }
 
 .portion {
-    width: 190px;
+    width: 250px;
     background-color: #fff;
     float: left;
     margin-right: 15px;
@@ -551,19 +536,19 @@ ul.time-list li {
 
 .portion-title {
     /*font-family: 'Bebas Neue';*/
-    width: 150px;
+    width: 210px;
     color: #fff;
     /*background: #777;*/
     background: #909090;
     font-size: 14px;
     padding: 10px 20px;
-    border-top: 4px solid #43c4a9;
-    border-top-right-radius: 4px;
-    border-top-left-radius: 4px;
+    border-top: 4px solid #13a651;
+    /*    border-top-right-radius: 4px;
+        border-top-left-radius: 4px;*/
 }
 
 .portion-content {
-    padding: 10px;
+    padding: 15px;
 }
 
 #header{
@@ -623,7 +608,7 @@ ul.time-list li {
 
 .footer-column-content input {
     width: 100%;
-    padding: 2px 3px;
+    padding: 5px 8px;
     background: #333333;
     background: #272727;
     border: 1px solid #444444;
@@ -645,8 +630,8 @@ ul.time-list li {
 }
 
 .footer-column-content button {
-    padding: 5px 15px;
-    margin-top: 5px;
+    padding: 7px 15px;
+    margin-top: 10px;
     color: #c5c5c5;
     background-color: #444;
     border: 1px solid #13a651;
@@ -664,22 +649,22 @@ ul.time-list li {
 .thick-hr-line {
     width: 35px;
     height: 3px;
-    background-color: #FFE4C4;
-    background-color: #FFE4C4;
+    background-color: #f5f195;
+    background-color: #13a651;
 }
 
 .wide-left {
     margin-left: 0;
     margin-bottom: 15px;
-    background: #FFE4C4;
-    width: 80px;
+    background: #13a651;
+    width: 50px;
 }
 
 .medium-left {
     margin-left: 0;
     margin-bottom: 15px;
-    background: #FFE4C4;
-    width: 80px;
+    background: #13a651;
+    width: 35px;
     margin-top: -7px;
 }
 
@@ -768,29 +753,6 @@ ul.time-list li {
     cursor: pointer;
     /*margin-bottom: 20px;*/
 }
-
-.button {
-  background-color: #4CAF50;
-  border: none;
-  color: white;
-  padding: 15px 25px;
-  text-align: center;
-  font-size: 16px;
-  cursor: pointer;
-  border-radius: 15px;
-  box-shadow: 0 9px #999;
-  text-decoration: none;
-  outline: none;
-}
-
-.button:hover {
-  background-color: pulple;
-}
-
-.button:active {
-  background-color: #3e8e41;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
 
 .get-results button:hover {
     background-color: #777 !important;
@@ -969,7 +931,7 @@ ul.time-list li {
 }
 #footer{
     position: relative;
-    width: 100px;
+    width: 940px;
     min-height: 200px;
     background:#34410b;
     margin:0 auto;
@@ -1047,7 +1009,7 @@ ul.time-list li {
 }
 #slider{
     float: left;
-    width: 100%;
+    width: 59%;
     border: 1px solid black;
 }
 
@@ -1344,12 +1306,6 @@ ul.time-list li {
     }
 
     .page-title {
-        width: auto;
-        line-height: 20px;
-        font-size: 16px;
-        display: none;
-    }
-    .page-title1 {
         width: auto;
         line-height: 20px;
         font-size: 16px;
