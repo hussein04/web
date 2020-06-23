@@ -52,9 +52,9 @@ body {
 }
 
 .page-title {
-    float: center;
+    float: left;
     width: 800px;
-    text-align: left;
+    text-align: center;
     font-weight: bold;
     margin: 25px 0;
     line-height: 40px;
@@ -64,9 +64,9 @@ body {
 }
 
 .page-title1 {
-    float: center;
+    float: left;
     width: 800px;
-    text-align: left;
+    text-align: center;
     font-weight: bold;
     margin: 25px 0;
     line-height: 40px;
