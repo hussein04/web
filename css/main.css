@@ -252,7 +252,7 @@ body {
 .top-wrapper {
     width: 100%;
     /*border: 1px solid #D8D8D8;*/
-    background-color: #008080;
+    background-color: #004d4d;
 }
 
 .nav-wrapper {
@@ -1199,7 +1199,7 @@ ul.time-list li {
         top: 0;
         left: 0;
         width: 100%;
-        box-shadow: 0 2px 5px 0 rgba(0, 128, 128);
+        box-shadow: 0 2px 5px 0 rgba(0, 77, 77);
     }
 
     .portion-title {
