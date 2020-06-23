@@ -63,6 +63,18 @@ body {
     color: #13a651;
 }
 
+.page-title1 {
+    float: left;
+    width: 800px;
+    text-align: left;
+    font-weight: bold;
+    margin: 25px 0;
+    line-height: 40px;
+    font-size: 20px;
+    color: #444444;
+    color: #13a651;
+}
+
 .news-date {
     float: left;
     width: 38px;
