@@ -262,6 +262,7 @@ body {
 
 .nav {
     width: 1000px;
+    text-align:center;
     margin-left: auto;
     margin-right: auto;
     height: 45px;
