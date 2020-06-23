@@ -357,6 +357,7 @@ body {
 }
 
 .nav ul {
+    text-align: center;
     list-style: none;
     position: relative;
     display: inline-table;
