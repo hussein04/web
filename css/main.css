@@ -440,7 +440,7 @@ body {
 }
 
 .left-column {
-    width: 265px;
+    width: 200px;
     float: left;
 }
 
@@ -543,7 +543,7 @@ ul.time-list li {
 }
 
 .portion-center {
-    width: 470px !important;
+    width: 300px !important;
 }
 
 .portion-title {
