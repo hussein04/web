@@ -1247,7 +1247,7 @@ ul.time-list li {
     }
     .middle-column {
         float: none !important;
-        width: 90%;
+        width: 100%;
         /*        padding-left: 10px;
                 padding-right: 10px;*/
         box-sizing: border-box;
