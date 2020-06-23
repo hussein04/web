@@ -1199,7 +1199,7 @@ ul.time-list li {
         top: 0;
         left: 0;
         width: 100%;
-        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+        box-shadow: 0 2px 5px 0 rgba(0, 128, 128);
     }
 
     .portion-title {
