@@ -258,6 +258,7 @@ body {
 .nav-wrapper {
     width: 100%;
     background: url(../images/video-overlay.png) repeat #13a651;
+    background-color: #336699;
 }
 
 .nav {
